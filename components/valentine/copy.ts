@@ -14,7 +14,7 @@ export const stages: Record<Stage, StageContent> = {
   1: {
     stage: 1,
     eyebrow: "Niyyah",
-    title: "Hello, Ifrath.",
+    title: "Hello.",
     subtext: "Some feelings are made with intention, and some questions are asked with sincerity.",
     microcopy: "Asked with sincere intention. A moment chosen with care.",
     primaryCta: "Continue",

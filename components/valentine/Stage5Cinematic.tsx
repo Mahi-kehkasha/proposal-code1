@@ -6,16 +6,16 @@ import LightParticles from "./LightParticles";
 import PetalShower from "./PetalShower";
 
 const letterParagraphs: string[] = [
-  "Ifrath, I want to say this honestly, without overthinking it ❤️",
-"I love you. Not in a loud, dramatic way — but in the quiet way that grows with time 🌸. In the way you cross my mind without effort 💭. In the way your presence, even from a distance, makes me feel calmer and more at ease 🌙.",
-"Every time I talk to you, something in me softens 💛. Your words stay with me longer than I expect them to 📝. Our conversations don’t fade — they settle somewhere deep and become part of my everyday thoughts 💫.",
-"I know there’s distance between us right now, but love doesn’t really measure itself in kilometers 🌍. It shows up in thoughts, in care, in how much someone matters even when they’re not around 💌.",
-"I don’t love you because of one moment. I love you because of many small ones — the way you make me feel understood, the comfort you bring, the quiet happiness I feel just knowing you exist in my life 🌷.",
-"And honestly… I can’t stop imagining our future 🏡. I know we’re going to have the cutest kids 👶💖 — seriously, just look at us! I picture a happy, messy little home full of laughter 😂, bedtime stories 📚, tiny chaos 🧸, inside jokes 🤭, and so much love ❤️.",
-"I can already see us building a life full of joy, playful mischief 😏, and endless happiness together 🌟.",
-"And I just want you to know — please don’t stay silent if something’s on your mind 🗣️. I won’t hold back anymore, and I won’t say anything out of fear ❌. That’s all behind me now 🙏. I literally trust Allah, and I trust us too 🌹.",
-"I’m not asking for perfection or rushing anything ⏳. I just wanted you to know how real this is for me 💖.",
-"Loving you honestly, playfully 😘, and with all my heart ❤️💫."
+  "I just wanted to say this honestly, without overthinking it 🙂",
+"I really like you. Not in a dramatic way — but in a calm, easy way 🌸. You cross my mind often without me realizing 💭. Just talking to you makes me feel lighter and happier 🌙.",
+"Every time we chat, something about the conversation sticks with me 💛. Your words linger in a good way 📝. It’s rare to feel that from someone 💫.",
+"I know we’re not always around each other, but it doesn’t stop me from thinking about you 🌍. Small things about you make a difference 💌.",
+"I like you not because of one thing, but because of many small moments — your smile, your way of being, the little laughs we share 🌷.",
+"And honestly… I enjoy imagining fun, silly moments we could have 😂. Simple things that make life feel brighter 📚🧸🤭.",
+"I can already see us sharing good times, playful jokes 😏, and happy, easy moments together 🌟.",
+"And I just want you to know — feel free to say what’s on your mind 🗣️. I’m not afraid to be honest ❌. Just keeping it real 🙏.",
+"I’m not expecting anything perfect or rushing anything ⏳. I just wanted to let you know how I feel 💖.",
+"Liking you honestly, playfully 😘, and with a smile 🌸💫."
 ,
 ];
 
