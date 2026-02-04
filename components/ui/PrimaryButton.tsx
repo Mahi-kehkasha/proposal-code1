@@ -1,10 +1,14 @@
 "use client";
 
-import { motion } from "framer-motion";
-import type { ComponentProps } from "react";
+import { motion, isMotionValue } from "framer-motion";
+import type { ComponentProps, ReactNode } from "react";
+import type { MotionValue } from "framer-motion";
 
-type Props = ComponentProps<typeof motion.button> & {
+type MotionChildren = MotionValue<string | number>;
+
+type Props = Omit<ComponentProps<typeof motion.button>, "children"> & {
   emphasis?: number;
+  children?: ReactNode | MotionChildren;
 };
 
 export default function PrimaryButton({
@@ -14,6 +18,11 @@ export default function PrimaryButton({
 }: Props) {
   const glow = Math.min(1, emphasis / 5);
   const scale = 1 + Math.min(0.06, emphasis * 0.012);
+
+  const { children, ...restProps } = props;
+  const renderedChildren = isMotionValue(children)
+    ? (children.get() as ReactNode)
+    : (children as ReactNode);
 
   return (
     <motion.button
@@ -35,10 +44,10 @@ export default function PrimaryButton({
         "transition-[transform,filter,opacity] duration-300",
         className ?? "",
       ].join(" ")}
-      {...props}
+      {...restProps}
     >
       <span className="pointer-events-none absolute inset-0 rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100 ring-neon" />
-      <span className="relative">{props.children}</span>
+      <span className="relative">{renderedChildren}</span>
     </motion.button>
   );
 }
